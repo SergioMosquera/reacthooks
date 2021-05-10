@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Characters {
+background: #f0f0f0;
+}
+.box {
+  display: inline-table;
+  margin: 2px 2px 2px;
+  height: 200px;
+  width: auto;
+  background: linear-gradient(rgb(245, 249, 255), rgba(45, 97, 170, 0.829))
+  
+}

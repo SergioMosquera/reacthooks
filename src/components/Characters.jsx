@@ -12,7 +12,13 @@ const Characters = () => {
     return(
         <div className="Characters">
             {characters.map(character => ( 
-            <h2>{character.name}</h2>
+            <div className="box">
+                <h2>{character.name}</h2>
+                <img src={character.image} alt="" width={160} height={160} />
+                <h3>{character.gender}</h3>
+                
+            </div>
+            
             ))}   
         </div>
     );
